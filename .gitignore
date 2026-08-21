@@ -1,0 +1,17 @@
+node_modules/
+
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Keep folder structure, ignore processed and source media
+app/images/**/*
+!app/images/
+!app/images/**/
+!app/images/**/.gitkeep
+
+app/fonts/**/*
+!app/fonts/
+!app/fonts/**/
+!app/fonts/**/.gitkeep
